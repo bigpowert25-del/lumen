@@ -1,5 +1,8 @@
 # LUMEN 流明
 
+[![CI](https://github.com/bigpowert25-del/lumen-dayflow/actions/workflows/ci.yml/badge.svg)](https://github.com/bigpowert25-del/lumen-dayflow/actions/workflows/ci.yml)
+[![MIT License](https://img.shields.io/badge/license-MIT-1B1D1C.svg)](./LICENSE)
+
 LUMEN 是 DayFlow 与 Refract 的本地主干产品：一边整理今天，一边孵化还没成形的灵感。它会只读扫描本机的 Codex 记忆、OpenClaw 记忆、共享 Obsidian Vault 与项目文档，把高置信内容自动分流到两个模块；真正占用日程前，始终保留一次轻确认。
 
 这是可运行 MVP，不是静态方案稿。

@@ -77,6 +77,7 @@ npm run check
 
 ## GitHub 公开发布
 
+- 公开仓库：[bigpowert25-del/lumen-dayflow](https://github.com/bigpowert25-del/lumen-dayflow)
 - 新增 `npm run demo`，只返回确定性的虚构样例。
 - 新增 `npm run public-safety`，检查个人主目录、邮箱、手机号、私钥材料和疑似密钥。
 - 新增 MIT `LICENSE`、`ATTRIBUTION.md`、`SECURITY.md` 与 GitHub Actions 验证工作流。
