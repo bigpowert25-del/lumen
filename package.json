@@ -1,0 +1,21 @@
+{
+  "name": "lumen-local-workspace",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server/index.mjs --dev",
+    "demo": "LUMEN_MODE=demo VITE_LUMEN_DEMO=1 PORT=4312 node server/index.mjs --dev",
+    "build": "vite build",
+    "start": "node server/index.mjs",
+    "test": "node --test tests/*.test.mjs server/*.test.mjs",
+    "public-safety": "node scripts/check-public-safety.mjs",
+    "check": "npm test && npm run public-safety && npm run build"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
+  }
+}
