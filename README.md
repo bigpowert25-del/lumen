@@ -1,7 +1,7 @@
 # LUMEN 流明
 
-[![CI](https://github.com/bigpowert25-del/lumen-dayflow/actions/workflows/ci.yml/badge.svg)](https://github.com/bigpowert25-del/lumen-dayflow/actions/workflows/ci.yml)
-[![MIT License](https://img.shields.io/badge/license-MIT-1B1D1C.svg)](./LICENSE)
+[![持续集成](https://github.com/bigpowert25-del/lumen/actions/workflows/ci.yml/badge.svg)](https://github.com/bigpowert25-del/lumen/actions/workflows/ci.yml)
+[![MIT 许可](https://img.shields.io/badge/许可-MIT-1B1D1C.svg)](./LICENSE)
 
 > 把散落在 Codex、OpenClaw、Obsidian 和项目文档里的工作线索，自动整理成：**今天做什么、哪些灵感值得保留、昨天学到了什么。**
 
@@ -70,7 +70,8 @@ flowchart LR
 需要 Node.js 20 或更高版本。
 
 ```bash
-cd <workspace>/01-dayflow
+git clone https://github.com/bigpowert25-del/lumen.git
+cd lumen
 npm install
 npm run demo
 ```
@@ -142,7 +143,7 @@ LUMEN_SCAN_ROOTS="$HOME/Documents:$HOME/.codex/memories" npm run dev
 ## 项目结构
 
 ```text
-01-dayflow/
+lumen/
 ├── src/                    React 双模块界面与交互
 ├── server/                 本地 HTTP 服务、只读扫描器与测试
 │   └── demo-data.mjs       可公开使用的脱敏示例信号
